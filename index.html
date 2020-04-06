@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meet Harshit Kumar</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Porstfolio of Harshit Kumar">
+  	<meta name="keywords" content="portfolio, about, intro, resume">
+  	<meta name="author" content="Harshit Kumar">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" type="text/css" href="styles/style.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header id="header" class="page-section">
+		<div class="logo-navigation-container">
+			<div class="logo-container">
+				<h2><span class="first-name">Harshit</span><span class="last-name">Kumar</span></h2>
+			</div>
+			<span class="menu-text">Menu</span>
+			<a href="javascript:void(0);" class="icon" id="bar-icon" onclick="myFunctionCall()">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div class="navigation-bar-container" id="menu-bar">
+				<a href="#header" class="btn active-nav" onclick="hideMenu()">Home</a>
+				<a href="#about-section" class="btn" onclick="hideMenu()">About</a>
+				<a href="#project-section" class="btn" onclick="hideMenu()">Projects</a>
+				<a href="#contact-section" class="btn" onclick="hideMenu()">Contact</a>
+			</div>
+		</div>
+		<div class="intro-container">
+			<p class="welcome-note">Hi, Welcome to my website</p>
+			<p class="intro">
+         		<span class="para">Hello, I'm <span class="developer-name">Harshit Kumar</span></span><br>
+         		<span class="mySlides">UI Developer,</span>
+        		<span class="mySlides">Angular Developer,</span>
+        		<span class="mySlides">Frontend developer,</span>
+        		<span class="para">based in Bengaluru</span>
+        	</p>
+		</div>
+		<button onclick="topFunction()" id="myBtn" title="Back to top"><i class="fa fa-hand-o-up" style="background-color: transparent"></i></button>
+	</header>
+
+	<section id="about-section" class="page-section">
+		<h1 class="section-heading">About Me</h1>
+		<div class="image-about-container">
+			<div class="image-container">
+			</div>
+			<div class="introduction-container">
+				<div class="about-intro">
+					<p class="my-short-intro">
+						Meet Frontend Developer Harshit
+					</p>
+					<p class="my-introduction">
+						Hello, My name is Harshit Kumar(born 1995) and I am from Azamgarh, Uttar Pradesh.  
+					</p>
+					<p class="my-introduction">
+						I am working as a UI Developer in Capgemini Technology Services India Limited in Bengaluru.
+					</p>
+					<button class="accordion">Education</button>
+					<div class="panel">
+						<div class="panel-container">
+							<div class="panel-content">
+								<p>Graduation - 2015-2019</p>
+								<p>Noida Institute of Engineering and Technology</p>
+								<p>Btech - Computer Science and Engineering</p>
+								<p>Percentage - 78%</p>
+							</div>
+							<div class="panel-content">
+								<p>Intermediate(12th) - 2014-2015</p>
+								<p>Jyoti Niketan School</p>
+								<p>Percentage - 70%</p>
+							</div>
+							<div class="panel-content">
+								<p>High School(10th)- 2012-2013</p>
+								<p>Jyoti Niketan School</p>
+								<p>Percentage - 79%</p>
+							</div>
+						</div>
+					</div>
+					<button class="accordion">Experience</button>
+					<div class="panel">
+						<div class="panel-content">
+			 				<p><span class="panel-title">Company:</span><span class="panel-value">Capgemini Technology Services India Limited</span></p>
+			 				<p><span class="panel-title">Role:</span><span class="panel-value">UI Developer using Angular 8</span></p>
+			 				<p><span class="panel-title">Duration:</span><span class="panel-value">Since 20th June, 2019</span></p>
+			 			</div>
+					</div>
+					<button class="accordion">Technical Skills</button>
+					<div class="panel">
+						<div class="panel-content">
+			 				<p><span class="panel-title">Frontend Language:</span><span class="panel-value">HTML5, CSS3, JavaScript, Bootstrap, Angular 8, Responsive Design</span></p>
+			 				<p><span class="panel-title">Backend Language:</span><span class="panel-value">Core Java, Advance Java, Spring Boot using Rest API</span></p>
+			 			</div>
+					</div>
+					<button class="accordion">Certifications</button>
+					<div class="panel">
+						<div class="panel-content">
+							<p><span class="panel-title">Certification:</span><span class="panel-value">Programming fundamentals of HTML, CSS and JavaScript</span>
+								<a target="_blank" href="images/certificate1.png">
+									<img src="images/certificate1.png" class="certificates" align="right">
+								</a>
+							</p>
+							<p><span class="panel-title">Platform:</span><span class="panel-value">Coursera</span></p>
+							<p><span class="panel-title">Certification:</span><span class="panel-value">Responsive Website Basics: Code with HTML, CSS and JavaScript</span>
+								<a target="_blank" href="images/certificate.png">
+									<img src="images/certificate.png" class="certificates" align="right">
+								</a>
+							</p>
+							<p><span class="panel-title">Platform:</span><span class="panel-value">Coursera</span></p>
+							
+						</div>
+					</div>
+					<button class="accordion">Awards and Recognitions</button>
+					<div class="panel">
+						<div class="panel-content">
+							<p><span class="panel-title">Award:</span><span class="panel-value">Best Paper Presentation Award </span>
+							<a target="_blank" href="images/certificate3.png">
+								<img src="images/certificate3.png" class="recognitions" align="right">
+							</a></p>
+							<p><span class="panel-title">Achievement:</span><span class="panel-value">2nd Rank in Java Fullstack training in Capgemini</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="project-section" class="page-section">
+		<h1 class="section-heading">Portfolio</h1>
+		<p class="project-intro">Following are the projects developed and designed by me..!!</p>
+
+		<div class="projects-container">
+			<div class="project">Coming Soon</div>
+			<div class="project">Coming Soon</div>
+			<div class="project">Coming Soon</div>
+			<div class="project">Coming Soon</div>
+			<div class="project">Coming Soon</div>
+			<div class="project">Coming Soon</div>
+		</div>
+	</section>
+
+	<section id="contact-section" class="page-section">
+		<h1 class="section-heading">Let's Connect</h1>
+		<p class="contact-info">Enjoyed my work connect to <span class="hire-text">hire me</span>..!!</p>
+		<div class="form-endorsement-container">
+			<div class="form-container">
+				<div class="form-sub-container">
+					<form action="mailto:harshitkumar286@gmail.com?subject=subject?body=comment" method="post" enctype="text/plain" name="contactForm">
+						<input type="email" name="email" placeholder="Enter Email" onkeyup="checkform()"><br>
+						<input type="text" name="subject" placeholder="Enter Subject" onkeyup="checkform()"><br>
+						<textarea placeholder="Enter Message" name="comment" onkeyup="checkform()"></textarea><br>
+						<input type="submit" name="submit" value="Submit" id="submitButton" disabled="disabled">
+					</form>
+					<div class="note-message">Note: <span class="note">Please fill all the details else button will not be enabled</span></div>
+				</div>
+			</div>
+			<div class="endorsement-container">
+				<p class="endorsement-request"><span class="heart-text">Thankyou </span>for visiting my website and I hope you enjoyed my work.</p>
+				<div class="resume-container">
+					<a href="resume.pdf" download="resume" target="_blank">
+						<button class="heart-button" id="heart">
+  							<span class="download-text">Download Resume</span>
+							<i class="fa fa-download" id="heart-icon"></i>
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<footer class="footer-container">
+			<div class="copyright-container">Copyright &copy; 2020. All rights reserved</div>
+			<div class="designed-container">Designed and Developed By: <span class="dev-name">Harshit Kumar</span></div>
+	</footer>
+	<script type="text/javascript">
+		
+		//Form Validation mail
+		function checkform(){
+            var f= document.forms["contactForm"].elements;
+	        var canSubmit= true;
+	        for(var i=0;i<f.length;i++){
+               if(f[i].value.length == 0){
+               		canSubmit = false;
+            	}
+        	}
+        	document.getElementById('submitButton').disabled = !canSubmit;
+	    }
+
+		// Add active class to the current button (highlight it)
+		var header = document.getElementById("menu-bar");
+		var btns = header.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		  var current = document.getElementsByClassName("active-nav");
+		  current[0].className = current[0].className.replace(" active-nav", "");
+		  this.className += " active-nav";
+  		  });
+		}
+
+		//Carousel Effect
+
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+  			var i;
+  			var x = document.getElementsByClassName("mySlides");
+  			for (i = 0; i < x.length; i++) {
+    			x[i].style.display = "none"; 
+  			}
+  			slideIndex++;
+  			if (slideIndex > x.length){
+  				slideIndex = 1
+  			} 
+  			x[slideIndex-1].style.display = "block"; 
+  			setTimeout(carousel, 2000); 
+		}
+
+		//Displaying Menu icon
+
+		function myFunctionCall() {
+      		var x = document.getElementById("menu-bar");
+      		if (x.style.display === "block") {
+        		x.style.display = "none";
+      		} else {
+        		x.style.display = "block";
+      		}
+    	}
+
+    	//Dsplaying the accordion
+
+    	var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+  			acc[i].addEventListener("click", function() {
+    		this.classList.toggle("active");
+    		var panel = this.nextElementSibling;
+    		if (panel.style.display === "block") {
+    		  panel.style.display = "none";
+    		} else {
+    		  panel.style.display = "block";
+    		}
+			});
+		}
+
+		//Back to top button
+		 mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function(){
+			scrollFunction()
+		};
+
+		function scrollFunction() {	
+  			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    			mybutton.style.display = "block";
+  			} else {
+    			mybutton.style.display = "none";
+  			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+  			document.body.scrollTop = 0; // For Safari
+  			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+		//Hide the menu on click
+		function hideMenu(){
+      		var menu= document.getElementById("menu-bar");
+      		if (menu.style.display === "block") {
+        		menu.style.display = "none";
+     	 	}
+    	}
+
+	</script>
+	
+</body>
+</html>
