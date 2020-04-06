@@ -99,6 +99,17 @@ a.active-nav{
   color: white; 
 }
 
+@media screen and (max-width: 400px){
+	
+	#myBtn{
+		color: white;
+	}
+
+	#myBtn:hover {
+  		color: #1abc9c;; 
+	}
+}
+
 @media screen and (max-width: 700px){
 
 	.logo-navigation-container{
@@ -638,6 +649,7 @@ a.active-nav{
 
 	#contact-section{
 		padding-top: 8%;	
+		height: 90%;
 	}
 }
 
@@ -690,6 +702,12 @@ a.active-nav{
 
 }
 
+.contact-message, .or-text{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
 
 .form-endorsement-container{
 	display: flex;
@@ -699,15 +717,15 @@ a.active-nav{
 .form-container{
 	width: 50%;
 	margin: 3%;
-	padding-bottom: 5%;
-	padding-top: 5%; 
+	padding-top: 1%;
+	padding-bottom: 3%;
 }
 
 .endorsement-container{
 	width: 50%;
 	margin: 3%;
-	padding-bottom: 5%;
-	padding-top: 5%; 
+	padding-top: 1%;
+	padding-bottom: 3%;
 }
 
 .endorsement-request{
@@ -736,7 +754,7 @@ a.active-nav{
 }
 
 .download-text{
-	font-size: 30px;
+	font-size: 2vw;
 	text-align: left;
 	color: white;
 	font-weight: lighter;
@@ -745,7 +763,7 @@ a.active-nav{
 #heart-icon{
 	text-align: right;
 	color: white;
-	font-size: 30px;
+	font-size: 2vw;
 	padding: 3%;
 }
 
@@ -823,12 +841,17 @@ textarea:focus{
 	.endorsement-container{
 		width: 100%;
 		margin: 0;
+		padding-bottom: 6%;
 	}
 
 	.endorsement-request{
 		padding: 0 4%;
 		font-size: 20px;
 		text-align: center;
+	}
+
+	.contact-message, .or-text{
+		font-size: 20px;
 	}
 }
 
